@@ -1,0 +1,9 @@
+version: '2'
+services:
+  snake:
+    image: 'lzeppa182/simpleweb'
+    environment:
+      - "PORT:80"
+    ports:
+      - "80:80"
+    
