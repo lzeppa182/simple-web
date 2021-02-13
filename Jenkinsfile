@@ -17,8 +17,8 @@ node ('app-agent'){
          
     stage('Pull-image-server') {
          
-         sh "/var/jenkins_home/docker-compose down"
-         sh "/var/jenkins_home/docker-compose up -d"
+         sh "docker-compose down"
+         sh "docker-compose up -d"
          	
       }
      
